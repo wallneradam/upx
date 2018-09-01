@@ -337,8 +337,8 @@ private:
 
 
 // magic constants for patching
-#define UPX_MAGIC_LE32          0x21585055      /* "UPX!" */
-#define UPX_MAGIC2_LE32         0xD5D0D8A1
+#define UPX_MAGIC_LE32          0x434d4242      /* "UPX!" */
+#define UPX_MAGIC2_LE32         0xD4D0A7A0
 
 
 // upx_compress() error codes
